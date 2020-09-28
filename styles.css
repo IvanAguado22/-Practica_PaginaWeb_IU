@@ -1,3 +1,26 @@
-*{
-    border: 1px solid black;
+header{
+    display: block;
+    background-color: khaki;
+    border: 1px  solid black;
 }
+
+.logo{
+    float: left;
+}
+
+.menu{
+    float: right;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.menu li{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid black;
+}
+
+.menu li:last-child {
+    border-right: none;
+  }
