@@ -1,26 +1,32 @@
 header{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: khaki;
     border: 1px  solid black;
 }
 
 .logo{
-    float: left;
+    order: 1;
+}
+
+.title{
+    border: 1px  solid black;
+    order: 2;
 }
 
 .menu{
-    float: right;
+    order: 3;
     border: 1px solid black;
-    text-align: center;
 }
 
 .menu li{
-    text-align: center;
     list-style: none;
+    text-align: center;
     display: inline-block;
     border-right: 1px solid black;
 }
 
-.menu li:last-child {
+.menu li:last-child{
     border-right: none;
-  }
+}
