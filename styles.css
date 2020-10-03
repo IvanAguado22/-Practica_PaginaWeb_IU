@@ -30,3 +30,32 @@ header{
 .menu li:last-child{
     border-right: none;
 }
+
+.columnaIzq{
+    float:left;
+    width:100px;
+    background-color: red;
+    border: 1px  solid black;
+    padding: 0em 0em 71em;
+    margin-top:  2em;
+}
+
+.columnaDch
+{
+   width:100px;
+   float:right;
+   background-color: red;
+   border: 1px  solid black;
+   padding: 0em 0em 52em;
+   margin-top:  2em;
+}
+
+.columnaMedio
+{
+   margin-left:120px;
+   margin-right:120px;
+   background-color: yellow;
+   border: 1px  solid black;
+   padding: 0em 0em 19.5em;
+   margin-top:  2em;
+}
