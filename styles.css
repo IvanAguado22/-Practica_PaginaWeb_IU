@@ -29,7 +29,7 @@ header{
 .menu{
     order: 3;
     border: 3px solid black;
-    margin-left: 260px;
+    margin-left: 1225px;
     margin-top:  15px;
     margin-bottom: 15px;
 }
@@ -60,6 +60,16 @@ header{
     background-color: red;
     border: 1px  solid black;
     padding: 0 0 100%;
+}
+
+.columnaIzq li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top:  6px;
+    margin-bottom: 5px;
+    margin-right: 5px; 
 }
 
 .columnaDch{
