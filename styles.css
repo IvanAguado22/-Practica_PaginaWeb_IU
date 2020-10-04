@@ -4,6 +4,7 @@ header{
     justify-content: space-between;
     background-color: khaki;
     border: 1px  solid black;
+    margin: 20px;
 }
 
 .logo{
@@ -31,31 +32,44 @@ header{
     border-right: none;
 }
 
+.main{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
 .columnaIzq{
     float:left;
-    width:100px;
+    width:25%;
     background-color: red;
     border: 1px  solid black;
-    padding: 0em 0em 71em;
-    margin-top:  2em;
+    padding: 0 0 100%;
 }
 
-.columnaDch
-{
-   width:100px;
-   float:right;
-   background-color: red;
-   border: 1px  solid black;
-   padding: 0em 0em 52em;
-   margin-top:  2em;
+.columnaDch{
+    float:right;
+    width:25%;
+    background-color: red;
+    border: 1px  solid black;
+    padding: 0 0 100%;
 }
 
-.columnaMedio
-{
+.columnaMedio{
    margin-left:120px;
    margin-right:120px;
    background-color: yellow;
    border: 1px  solid black;
-   padding: 0em 0em 19.5em;
    margin-top:  2em;
+}
+
+.pie{
+    clear: both;
+    
+}
+
+.pie li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    border-right: 1px solid black;
 }
