@@ -8,10 +8,9 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /*justify-content: space-between;*/
     background-color: khaki;
     border: 3px  solid black;
-    margin: 20px 50px ;
+    margin: 20px 55px;
 }
 
 .logo{
@@ -61,7 +60,7 @@ header{
 }
 
 .column.side{
-    flex:25%;
+    flex: 25%;
     background-color: red;
     padding: 20px;
 }
@@ -73,7 +72,7 @@ header{
 }
 
 @media screen and (max-width: 600px) {
-    .main, .menu {
+    .main {
         flex-direction: column;
     }
   }
