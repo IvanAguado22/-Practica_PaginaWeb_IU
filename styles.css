@@ -1,6 +1,7 @@
 *{
     padding: 0 0;
     margin: 0 0;
+    box-sizing: border-box;
 }
 
 header{
@@ -50,18 +51,19 @@ header{
 
 .column{
     float: left;
+    border: 3px solid black;
 }
 
 .column.side{
     width:25%;
     background-color: red;
-    border: 1px  solid black;
+    
 }
 
 .column.mid{
     width: 50%;
     background-color: yellow;
-    border: 1px solid black;
+    
 }
 
 .column.side li{
