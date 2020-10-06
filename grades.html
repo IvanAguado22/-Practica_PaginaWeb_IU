@@ -6,60 +6,47 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <meta name="keywords" content="palabras clave"/> <!-- Hay q escribir las palabras clave -->
-        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">  Responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <header>
-            <img src="images/logo.jpg" alt="logo" class="logo" width="50px">
-            <h1 class="title">My First Web Page</h1>
-            <nav class="menu">
-                <ul>
-                    <li><a href="#O1">Option1</a></li>
-                    <li><a href="#O2">Option2</a></li>
-                    <li><a href="#O3">Option3</a></li>
-                </ul>
-            </nav>
-        </header>
-        <div class="main">
-            <aside class="columnaIzq">
-                <hgroup>
-                    <h1>Course</h1>
-                </hgroup>
+        <div class="header">
+            <header>
+                <img src="images/logo.jpg" alt="logo" class="logo" width="50px">
+                <h1 class="title">My First Web Page</h1>
+                <nav class="menu">
                     <ul>
-                        <li><a href="C:\Users\Koque\Documents\Uni\3º Curso\1º Cuatri\Interfaces de Usuario\Practicas\Practica_PaginaWeb_IU/students.html">Students</a></li>
-                        <li><a href="C:\Users\Koque\Documents\Uni\3º Curso\1º Cuatri\Interfaces de Usuario\Practicas\Practica_PaginaWeb_IU/forum.html">Forum</a></li>
-                        <li><a href="C:\Users\Koque\Documents\Uni\3º Curso\1º Cuatri\Interfaces de Usuario\Practicas\Practica_PaginaWeb_IU/grades.html">Grades</a></li>
+                        <li><a href="#O1">Option1</a></li>
+                        <li><a href="#O2">Option2</a></li>
+                        <li><a href="#O3">Option3</a></li>
                     </ul>
-            </aside>
+                </nav>
+            </header>
+        </div>
         
-            <aside class="columnaDch">
-                <hgroup>
-                    <h1>Last News</h1> <!-- link? -->
-                </hgroup>
-                
-                <li><time datetime="10/09/2020"> 10/09 - New videos uploaded</time></li>
-                <li><time datetime="09/09/2020"> 09/09 - New topic added</time></li>
-                <li><time datetime="09/09/2020"> 09/09 - New messages in the forum</time></li>
+        <div class="separador">
+        </div>
 
-                <hgroup>
-                    <h1>Next Events</h1> <!-- link? -->
-                </hgroup>
-                
-                <li><time datetime="20/09/2020"> 20/09 - Assignemnt due date</time></li>
-                <li><time datetime="15/09/2020"> 15/09 - Group meeting</time></li>
-            </aside>
-
-            <section class="columnaMedio">
-                <div class="videoSection">
+        <div class="main">
+                <aside class="column side">
+                    <h1 class="titulo1">Course</h1>
                     <ul>
+                        <li><a href="./students.html">Students</a></li>
+                        <li><a href="./forum.html">Forum</a></li>
+                        <li><a href="./grades.html">Grades</a></li>
+                    </ul>
+                </aside>
+            
+                <section class="column mid">
+                    <h1>Calificaciones</h1>
+                    <div class="tabla">
                         <table style="width:100%">
                             <tr>
-                              <th>estudiante</th>
-                              <th>actividad1</th>
-                              <th>actividad2</th>
-                              <th>actividad3</th>
+                              <th>Estudiante</th>
+                              <th>Actividad1</th>
+                              <th>Actividad2</th>
+                              <th>Actividad3</th>
                             </tr>
                             <tr>
                               <td>Jill</td>
@@ -128,9 +115,23 @@
                                 <td>6</td>
                             </tr>
                           </table>
+                    </div>
+                </section>  
+
+                <aside class="column side">
+                    <h1>Last News</h1> <!-- link? -->
+                    <ul>
+                        <li><time datetime="10/09/2020"> 10/09 - New videos uploaded</time></li>
+                        <li><time datetime="09/09/2020"> 09/09 - New topic added</time></li>
+                        <li><time datetime="09/09/2020"> 09/09 - New messages in the forum</time></li>
                     </ul>
-                </div>
-            </section>  
+
+                    <h1>Next Events</h1> <!-- link? -->
+                    <ul>
+                        <li><time datetime="20/09/2020"> 20/09 - Assignemnt due date</time></li>
+                        <li><time datetime="15/09/2020"> 15/09 - Group meeting</time></li>
+                    </ul>
+                </aside>
         </div>
 
         <footer class="pie">
@@ -139,8 +140,6 @@
                 <li><a href="#Copyright">© All rights reserved</a></li>
                 <li><a href="#Privacidad">Política de privacidad</a></li>
             </ul>
-                
-                <!-- Puede q esto no sirva -->
         </footer>
     </body>
 </html>
