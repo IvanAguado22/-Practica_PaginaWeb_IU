@@ -1,36 +1,39 @@
 *{
     padding: 0 0;
     margin: 0 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 header{
-    width: 100%;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     /*justify-content: space-between;*/
     background-color: khaki;
     border: 3px  solid black;
     margin: 20px 50px ;
-    overflow: auto;
 }
 
-.logo{ 
-    float: left;
+.logo{
+    order: 1;
     margin-left: 15px;
     margin-top:  15px;
     margin-bottom: 15px;
 }
 
 .title{
-    float: left;
+    order: 2;
     margin-left: 15px;
     margin-top:  15px;
     margin-bottom: 15px;   
 }
 
 .menu{
-    float: right;
+    order: 3;
     border: 3px solid black;
+    margin-left: 260px;
+    margin-top:  15px;
+    margin-bottom: 15px;
 }
 
 .menu li{
@@ -44,44 +47,34 @@ header{
 }
 
 .main{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
     margin-left: 50px;
     margin-right: 50px;
-    background-color: green;
+    background-color: white;
 }
 
 .column{
-    float: left;
     border: 3px solid black;
+    margin: 5px;
 }
 
 .column.side{
-    width:25%;
+    flex:25%;
     background-color: red;
-    
+    padding: 20px;
 }
 
 .column.mid{
-    width: 50%;
+    flex: 50%;
     background-color: yellow;
-    
-}
-
-.column.side li{
-    list-style: none;
-    text-align: left;
-    display: block;
-    padding: 5px 5px;
-}
-
-.main:after {
-    content: "";
-    display: table;
-    clear: both;
+    padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
-    .column.side, .column.mid {
-        width: 100%;
+    .main, .menu {
+        flex-direction: column;
     }
   }
 
