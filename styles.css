@@ -10,7 +10,8 @@ header{
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
-    background-color: khaki;
+    background-color: black;
+    color: white;
     border: 3px  solid black;
     margin: 20px 55px;
 }
@@ -61,13 +62,18 @@ header{
 
 .column.side{
     flex: 25%;
-    background-color: red;
+    background-color: grey;
     padding: 20px;
+}
+
+.column.side li{
+    list-style: none;
+    padding: 15px 0;
 }
 
 .column.mid{
     flex: 50%;
-    background-color: yellow;
+    background-color: grey;
     padding: 20px;
 }
 
@@ -85,23 +91,23 @@ table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  }
+}
   
-  td, th {
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
+}
   
-  tr:nth-child(even) {
+tr:nth-child(even) {
     background-color: #dddddd;
-  }
+}
 
 @media screen and (max-width: 600px) {
     .main {
         flex-direction: column;
     }
-  }
+}
 
 .pie{
     clear: both;
