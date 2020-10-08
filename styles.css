@@ -82,11 +82,11 @@ header{
     font-size: 17px;
 }
 
-.column.side li:nth-last-child(2){
+.listaIzquierda li:nth-last-child(2){
     display: none;
 }
 
-.column.side li:nth-last-child(1){
+.listaIzquierda li:nth-last-child(1){
     display: none;
 }
 
@@ -305,9 +305,9 @@ tr:nth-child(1) {
         display: none;
         position: absolute;
         background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        width: 100%;
         z-index: 1;
+        overflow: auto;
     }
 
     .dropdown-content a {
@@ -326,6 +326,7 @@ tr:nth-child(1) {
     }
 
     .boton{
+        border: 1px solid black;
         float: left;
     }
 
