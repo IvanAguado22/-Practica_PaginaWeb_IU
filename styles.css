@@ -133,7 +133,7 @@ article::after{
 }
 
 .tituloArticulo{
-    padding: 0 20px;
+    padding: 20px 0;
     font-size: 20px;
 }
 
@@ -295,6 +295,15 @@ tr:nth-child(1) {
 
     .logoTema{
         display: none;
+    }
+
+    .perfil{
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .datosS{
+        padding: 0;
     }
 }
 
