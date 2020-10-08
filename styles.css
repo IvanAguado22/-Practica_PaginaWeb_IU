@@ -137,6 +137,10 @@ article::after{
     font-size: 20px;
 }
 
+.tituloArticulo.n{
+    display: none;
+}
+
 .parrafoArticulo{
     padding: 20px;
     font-size: 17px;
@@ -275,6 +279,14 @@ tr:nth-child(1) {
     
     .column.side li:nth-last-child(1){
         display: block;
+    }
+
+    .tituloArticulo.n{
+        display: inline;
+    }
+
+    .tituloArticulo{
+        display: none;
     }
 
     .videoArticulo{
