@@ -86,10 +86,45 @@ header{
     padding: 20px;
 }
 
+.tema{
+    border: 1px solid black;
+}
+
+.section{
+    clear: both;
+}
+
+.logoTema{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.tituloTema{
+    padding: 0 20px;
+}
+
+.parrafoTema{
+    padding: 20px;
+}
+
+.videoArticulo{
+    float: left;
+    margin-right: 20px;
+}
+
+.tituloArticulo{
+    padding: 0 20px;
+}
+
+.parrafoArticulo{
+    padding: 20px;
+}
+
 .lista{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .lista li{
