@@ -13,141 +13,147 @@
     <body>
         <div class="header">
             <header>
-                <img src="images/logo.jpg" alt="logo" class="logo" width="50px">
-                <h1 class="title">Interfaces de Usuario</h1>
-                <nav class="menu">
-                    <ul>
-                        <li><a href="./ep01_grXX.html">Inicio</a></li>
-                        <li><a href="#Noticias">Noticias</a></li>
-                        <li><a href="#Ajustes">Ajustes</a></li>
-                    </ul>
-                </nav>
+                <div class="headerComputer">
+                    <img src="images/logo.jpg" alt="logo" class="logo">
+                    <h1 class="title">Interfaces de Usuario</h1>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="./ep01_grXX.html">Inicio</a></li>
+                            <li><a href="#Noticias">Noticias</a></li>
+                            <li><a href="#Ajustes">Ajustes</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="headerTablet">
+                    <img src="images/logo.jpg" alt="logo" class="logo">
+                    <h1 class="title">Curso IU</h1>
+                </div>
             </header>
         </div>
         
         <div class="separador"></div>
 
         <div class="main">
-                <aside class="column side I">
-                    <h1 class="titulo1 n">Curso IU</h1>
-                    <ul>
-                        <li><a href="./listadoEstudiantes.html">Listado de Estudiantes</a></li>
-                        <li><a href="./foro.html">Foro de la Asignatura</a></li>
-                        <li><a href="./calificaciones.html">Calificaciones</a></li>
-                        <li><a href="#Novedades">Últimas Novedades</a></li>
-                        <li><a href="#Eventos">Próximos Eventos</a></li>
-                    </ul>
+            <aside class="column side I">
+                <h1 class="titulo1 n">Curso IU</h1>
+                <ul class="listaIzquierda">
+                    <li><a href="./listadoEstudiantes.html">Listado de Estudiantes</a></li>
+                    <li><a href="./foro.html">Foro de la Asignatura</a></li>
+                    <li><a href="./calificaciones.html">Calificaciones</a></li>
+                    <li><a href="#Novedades">Últimas Novedades</a></li>
+                    <li><a href="#Eventos">Próximos Eventos</a></li>
+                </ul>
 
-                    <div class="dropdown">
-                        <img class="boton" src="images/dropdown.png" alt="logo" width="50" height="50">
-                        <div class="dropdown-content">
-
+                <div class="dropdown">
+                    <img class="boton" src="images/dropdown.png" alt="logo" width="50" height="50">
+                    <div class="dropdown-content">
+                        <nav>
                             <a href="./listadoEstudiantes.html">Listado de Estudiantes</a>
                             <a href="./foro.html">Foro de la Asignatura</a>
                             <a href="./calificaciones.html">Calificaciones</a>
                             <a href="#Novedades">Últimas Novedades</a>
                             <a href="#Eventos">Próximos Eventos</a>
-
-                        </div>
-                        <h1 class="titulo1 ">Curso IU</h1>
+                        </nav>
                     </div>
-                    
-                </aside>
-            
-                <section class="column mid">
-                    <h1 class="tituloCalificaciones">Calificaciones</h1>
-                    <div class="tabla">
-                        <table style="width:100%">
-                            <tr>
-                              <th>Estudiante</th>
-                              <th>Actividad 1</th>
-                              <th>Actividad 2</th>
-                              <th>Actividad 3</th>
-                            </tr>
-                            <tr>
-                              <td>Iván</td>
-                              <td>10</td>
-                              <td>10</td>
-                              <td>10</td>
-                            </tr>
-                            <tr>
-                                <td>Jorge</td>
-                                <td>10</td>
-                                <td>10</td>
-                                <td>10</td>
-                            </tr>
-                            <tr>
-                                <td>Javier</td>
-                                <td>7</td>
-                                <td>5.5</td>
-                                <td>6</td>
-                            </tr>
-                            <tr>
-                                <td>Ignacio</td>
-                                <td>3.25</td>
-                                <td>4</td>
-                                <td>3</td>
-                            </tr>
-                            <tr>
-                                <td>María</td>
-                                <td>7</td>
-                                <td>8</td>
-                                <td>5.25</td>
-                            </tr>
-                            <tr>
-                                <td>Nacho</td>
-                                <td>9</td>
-                                <td>8.75</td>
-                                <td>7.5</td>
-                            </tr>
-                            <tr>
-                                <td>Cristina</td>
-                                <td>4.5</td>
-                                <td>5.5</td>
-                                <td>5.25</td>
-                            </tr>
-                            <tr>
-                                <td>Julia</td>
-                                <td>8</td>
-                                <td>8</td>
-                                <td>6.5</td>
-                            </tr>
-                            <tr>
-                                <td>Federico</td>
-                                <td>1</td>
-                                <td>2.25</td>
-                                <td>5</td>
-                            </tr>
-                            <tr>
-                                <td>Manuel</td>
-                                <td>7</td>
-                                <td>6.75</td>
-                                <td>7.5</td>
-                            </tr>
-                            <tr>
-                                <td>Yolanda</td>
-                                <td>7.5</td>
-                                <td>8</td>
-                                <td>9.5</td>
-                            </tr>
-                          </table>
-                    </div>
-                </section> 
+                </div>
+                <h1 class="titulo1 ">Curso IU</h1>
+            </aside>
+        
+            <section class="column mid">
+                <h1 class="tituloCalificaciones">Calificaciones</h1>
+                <div class="tabla">
+                    <table style="width:100%">
+                        <tr>
+                          <th>Estudiante</th>
+                          <th>Actividad 1</th>
+                          <th>Actividad 2</th>
+                          <th>Actividad 3</th>
+                        </tr>
+                        <tr>
+                          <td>Iván</td>
+                          <td>10</td>
+                          <td>10</td>
+                          <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Jorge</td>
+                            <td>10</td>
+                            <td>10</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Javier</td>
+                            <td>7</td>
+                            <td>5.5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>Ignacio</td>
+                            <td>3.25</td>
+                            <td>4</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>María</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>5.25</td>
+                        </tr>
+                        <tr>
+                            <td>Nacho</td>
+                            <td>9</td>
+                            <td>8.75</td>
+                            <td>7.5</td>
+                        </tr>
+                        <tr>
+                            <td>Cristina</td>
+                            <td>4.5</td>
+                            <td>5.5</td>
+                            <td>5.25</td>
+                        </tr>
+                        <tr>
+                            <td>Julia</td>
+                            <td>8</td>
+                            <td>8</td>
+                            <td>6.5</td>
+                        </tr>
+                        <tr>
+                            <td>Federico</td>
+                            <td>1</td>
+                            <td>2.25</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>Manuel</td>
+                            <td>7</td>
+                            <td>6.75</td>
+                            <td>7.5</td>
+                        </tr>
+                        <tr>
+                            <td>Yolanda</td>
+                            <td>7.5</td>
+                            <td>8</td>
+                            <td>9.5</td>
+                        </tr>
+                    </table>
+                </div>
+            </section> 
 
-                <aside class="column side D">
-                    <h1 class="titulo1">Últimas Novedades</h1> <!-- link? -->
-                    <ul>
-                        <li><time datetime="10/09/2020"> 10/09 - Agregados nuevos videos</time></li>
-                        <li><time datetime="09/09/2020"> 09/09 - Añadido nuevo tema</time></li>
-                        <li><time datetime="09/09/2020"> 09/09 - Nuevos mensajes en el foro</time></li>
-                    </ul>
+            <aside class="column side D">
+                <h1 class="titulo1">Últimas Novedades</h1>
+                <ul>
+                    <li><time datetime="2020-09-10"> 10/09 - Agregados nuevos videos</time></li>
+                    <li><time datetime="2020-09-09"> 09/09 - Añadido nuevo tema</time></li>
+                    <li><time datetime="2020-09-09"> 09/09 - Nuevos mensajes en el foro</time></li>
+                </ul>
 
-                    <h1 class="titulo1">Próximos Eventos</h1> <!-- link? -->
-                    <ul>
-                        <li><time datetime="20/09/2020"> 20/09 - Fecha límite práctica 2</time></li>
-                        <li><time datetime="15/09/2020"> 15/09 - Clase de laboratorio</time></li>
-                    </ul>
-                </aside>
+                <h1 class="titulo1">Próximos Eventos</h1>
+                <ul>
+                    <li><time datetime="2020-09-20"> 20/09 - Fecha límite práctica 2</time></li>
+                    <li><time datetime="2020-09-15"> 15/09 - Clase de laboratorio</time></li>
+                </ul>
+            </aside>
         </div>
 
         <footer class="pie">

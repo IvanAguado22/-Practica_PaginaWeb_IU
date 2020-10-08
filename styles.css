@@ -24,6 +24,7 @@ body{
 
 .logo{
     float: left;
+    width: 50px;
     margin: 15px;
 }
 
