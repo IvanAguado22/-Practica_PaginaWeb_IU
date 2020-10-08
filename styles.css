@@ -90,10 +90,6 @@ header{
     border: 1px solid black;
 }
 
-.section{
-    clear: both;
-}
-
 .logoTema{
     width: 100px;
     float: left;
@@ -106,6 +102,24 @@ header{
 
 .parrafoTema{
     padding: 20px;
+}
+
+.separador{
+    content: "";
+    clear: both;
+    display: table;
+    margin-top: 20px;
+}
+
+article{
+    border: 1px solid black;
+    /*overflow: auto;*/
+}
+
+article::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .videoArticulo{
