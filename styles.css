@@ -111,11 +111,6 @@ header{
     margin-top: 20px;
 }
 
-article{
-    /*border: 1px solid black;*/
-    /*overflow: auto;*/
-}
-
 article::after{
     content: "";
     clear: both;
