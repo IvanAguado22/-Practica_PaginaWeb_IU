@@ -139,6 +139,32 @@ article::after{
     padding-bottom: 10px;
 }
 
+.perfil{
+    width: 100px;
+    float: left;
+    margin-top: 20px;  
+    margin-right: 20px;
+}
+
+.datosS{
+    padding: 25px 20px;
+}
+
+.icono{
+    width: 50px;
+    float: left;
+}
+
+.listaS{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.listaS li{
+    list-style: none;
+}
+
 .lista{
     display: flex;
     flex-direction: row;
