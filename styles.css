@@ -82,6 +82,18 @@ header{
     font-size: 17px;
 }
 
+.column.side li:nth-last-child(2){
+    display: none;
+}
+
+.column.side li:nth-last-child(1){
+    display: none;
+}
+
+.dropdown{
+    display: none;
+}
+
 .column.mid{
     flex: 50%;
     background-color: #BDEBE9;
@@ -122,6 +134,7 @@ article::after{
 .videoArticulo{
     float: left;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .tituloArticulo{
@@ -245,13 +258,88 @@ tr:nth-child(1) {
 }
 
 @media screen and (max-width: 768px) {
-    .main {
-        flex-direction: column;
+    .header{
+        display: none;
+    }
+
+    .column.side.D{
+        display: none;
+    }
+
+    .column.side li:nth-last-child(2){
+        display: block;
+    }
+    
+    .column.side li:nth-last-child(1){
+        display: block;
+    }
+
+    .videoArticulo{
+        width: 100%;
+    }
+
+    .logoTema{
+        display: none;
     }
 }
 
 @media screen and (max-width: 600px) {
     .main {
         flex-direction: column;
+    }
+
+    .titulo1.n{
+        display: none;
+    }
+
+    .column.side.I ul{
+        display: none;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover{
+        background-color: #f1f1f1
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .boton{
+        float: left;
+    }
+
+    .titulo1{
+        float: left;
+        text-align: left;
+        margin: 10px;
+    }
+
+    .parrafoTema{
+        display: none;
+    }
+
+    .parrafoArticulo{
+        display: none;
     }
 }
