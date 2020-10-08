@@ -183,15 +183,23 @@ article::after{
     display: block;
 }
 
+.tituloListado{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.subtitulo{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
 .tituloForo{
-    padding: 20px 20px;
-    padding-top: 0;
+    padding-bottom: 20px;
     font-size: 30px;
 }
 
 .tituloCalificaciones{
-    padding: 20px 20px;
-    padding-top: 0;
+    padding-bottom: 20px;
     font-size: 30px;
 }
 
